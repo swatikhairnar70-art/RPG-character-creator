@@ -22,3 +22,5 @@ def create_character(name, my_str, my_int, my_char):
     if my_str + my_int + my_char != 7:
         return 'The character should start with 7 points'
     return f'{name}\nSTR {full_dot * my_str}{empty_dot * (10 - my_str)}\nINT {full_dot * my_int}{empty_dot * (10 - my_int)}\nCHA {full_dot * my_char}{empty_dot * (10 - my_char)}'
+check = create_character('swati', 4, 2, 1)
+print(check)
